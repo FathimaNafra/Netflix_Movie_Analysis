@@ -193,7 +193,7 @@ GROUP BY
 To better understand the insights from the dataset, an **interactive dashboard** was developed using **Power BI** to visualize the Netflix content library.
 
 ### Dashboard Preview
-![Netflix Dashboard](https://github.com/FathimaNafra/Netflix_Movie_Analysis/blob/main/Netflix_Dashboard.pbix)
+![Netflix Dashboard](https://github.com/FathimaNafra/Netflix_Movie_Analysis/blob/main/Dashboard.png)
 
 ### Key Dashboard Features
 

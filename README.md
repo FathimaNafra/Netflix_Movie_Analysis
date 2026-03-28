@@ -188,6 +188,86 @@ GROUP BY
     END;
 ```
 **Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
+## Dashboard Design & Visualization
+
+To better understand the insights from the dataset, an **interactive dashboard** was developed using **Power BI** to visualize the Netflix content library.
+
+### Dashboard Preview
+![Netflix Dashboard](https://github.com/FathimaNafra/Netflix_Movie_Analysis/blob/main/netflix_dashboard.png)
+
+### Key Dashboard Features
+
+#### 1. KPI Summary Cards
+The dashboard displays key statistics about the Netflix dataset:
+
+- **Total Titles:** 6K  
+- **Movies:** 4K  
+- **TV Shows:** 2K  
+- **Countries Represented:** 172  
+
+These KPIs provide a quick overview of the Netflix content library.
+
+#### 2. Interactive Filters
+Users can explore the data dynamically using filters:
+
+- **Type:** Movie or TV Show  
+- **Release Year Range:** Filter content by year  
+- **Country:** Search and filter by country  
+- **Title Search:** Find specific titles  
+
+These filters allow flexible exploration of the dataset.
+
+#### 3. Content Growth by Release Year
+A **line chart** shows how the number of Netflix titles has grown over time.  
+The visualization highlights the rapid increase in content after **2015**, showing how the platform expanded its library.
+
+#### 4. Genre Distribution
+A **bar chart** displays the **Top genres** based on the number of titles.  
+It also compares **Movies and TV Shows**, helping identify the most common categories such as:
+
+- Documentaries  
+- Stand-Up Comedy  
+- Dramas  
+- Comedies  
+- Kids TV  
+
+#### 5. Content Rating Distribution
+A **donut chart** visualizes the distribution of titles by maturity ratings such as:
+
+- TV-MA  
+- TV-14  
+- TV-PG  
+- PG-13  
+- R  
+
+This helps understand the target audience of the platform.
+
+#### 6. Global Content Production
+A **world map visualization** highlights countries producing Netflix content.  
+The darker regions represent countries with a higher number of titles.
+
+#### 7. Content Details Table
+The dashboard also includes a **detailed table view** showing:
+
+- Title  
+- Director  
+- Cast  
+- Country  
+- Release Year  
+- Rating  
+- Duration  
+
+This allows users to explore individual content records.
+
+---
+
+### Key Insights
+
+- Netflix has **significantly expanded its content library after 2015**.  
+- **Movies dominate the platform**, making up the majority of titles.  
+- **Documentaries and dramas** are among the most common genres.  
+- **TV-MA and TV-14** ratings appear most frequently.  
+- Content is produced across **170+ countries worldwide**.
 
 ## Findings and Conclusion
 
